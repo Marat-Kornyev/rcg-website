@@ -1,0 +1,205 @@
+@font-face{
+  font-family: opensans-regular;
+  src: url(open-sans/opensans-regular.ttf);
+  font-family: opensans-semibold;
+  src: url(open-sans/opensans-semibold.ttf);
+}
+
+body {
+  font-family: opensans-regular;
+  font-size: 16px;
+  color: #fff;
+  background-image: url(../images/rcg-bg.jpg);
+}
+
+footer {
+  font-family: opensans-regular;
+  font-size: 10px;
+  color: #fff;
+}
+
+header img {
+  width: 150px;
+  height: 150px;
+}
+
+nav {
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
+  align-items: center;
+}
+
+section a{
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.25em;
+}
+
+section a:hover {
+  color: black;
+  background-color: #ccc;
+}
+
+section{
+  align-content: flex-end;
+}
+
+h1{
+  text-align: center;
+  text-size: 2em;
+  color: rgb(179, 0, 0);
+}
+
+h2{
+  text-align: center;
+  text-size: 1.5em;
+  color: rgb(179, 0, 0);
+}
+
+nav a {
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.25em;
+  background-color: #000;
+}
+
+nav a:hover {
+  color: black;
+  background-color: #ccc;
+}
+
+nav  ul{
+  padding-left: 0;
+  margin: 2em 0;
+}
+
+nav li, div{
+  font-family: opensans-semibold;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+footer, header, h2{
+  text-align: center;
+}
+
+#footer{
+
+}
+
+
+#layout{
+  display: grid;
+  grid-template-rows:auto;
+  grid-template-columns: 50% 50%;
+}
+
+section{
+  font-family; MyFirstFont;
+  border-style: solid;
+  border-radius: 1em;
+  border-width: 2px;
+  border-color: white;
+  margin: 20px;
+  padding-top: 2px;
+  margin-left: 2;
+  margin-right: 2;
+  box-shadow: 5px 5px 4px white;
+}
+
+section p{
+  padding-left: 10;
+}
+
+section h1{
+  text-align: center;
+}
+
+#one p{
+  margin: -7;
+  margin-bottom: auto;
+}
+
+footer {
+
+  padding-top: 25px;
+  position: center;
+  width: 100%;
+  font-size: 10px;
+  text-align: center;
+}
+
+footer img{
+  width: 25px;
+  height: 25px;
+  align-items: flex-end;
+}
+
+footer>p>a{
+  font-size: 10px;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.25em;
+}
+
+footer>p>a:hover{
+  font-size: 10px;
+  color: #000;
+  text-decoration: none;
+  padding: 0.25em;
+  background-color: #fff;
+}
+
+#page-container {
+  position: relative;
+  min-height: 95vh;
+}
+
+#content-wrap {
+  padding-bottom: -2.5rem;
+}
+
+#one{
+  text-align: center;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+#one section{
+  height: 10.9375em;
+}
+
+#two section{
+  height: 10.9375em;
+}
+
+#one section{
+  height: 10.9375em;
+}
+
+#two section{
+  height: 10.9375em;
+}
+
+#one section{
+  height: 10.9375em;
+}
+
+#two section{
+  height: 10.9375em;
+}
+
+#three section{
+  height: 20.2em;
+}
+
+#four section{
+  height: 20.2em;
+}
